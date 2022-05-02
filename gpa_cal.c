@@ -34,3 +34,4 @@ void main()
 	resgpa = resgpa / totcred;
 	printf("\nGPA obtained in this semester is : %.2f", resgpa);
 	getch();
+}
