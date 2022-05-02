@@ -33,7 +33,4 @@ void main()
 	}
 	resgpa = resgpa / totcred;
 	printf("\nGPA obtained in this semester is : %.2f", resgpa);
-	_getch();
-	
-	// _getch used in place of getch because getch name is deprecated and gives an error C4996
-}
+	getch();
